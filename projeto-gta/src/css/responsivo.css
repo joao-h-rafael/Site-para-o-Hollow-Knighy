@@ -1,0 +1,57 @@
+@media (max-width: 1080px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0px;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a {
+        padding: 10px;
+
+    }
+
+    .home .informacoes {
+        padding: 20px;
+    }
+
+    .home .informacoes img {
+        max-width: 125px;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 40px;
+    }
+
+    .compre-ja .Cartão {
+        width: 100%;
+    }
+
+}
+
+    @media (max-width: 766px){
+        .compre-ja{
+            padding: 30px;
+        }
+
+        .compre-ja .Cartão{
+            padding: 80px 20px;
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 459px){
+        .home .informacoes img{
+            max-width: 90px;
+        }
+
+        .home .informacoes .titulo, .texto{
+            font-size: 35px;
+        }
+
+        .btn-comprar{
+            width: 100%;
+
+        }
+    }
+
